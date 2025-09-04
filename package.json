@@ -4,6 +4,7 @@
   "description": "A user-friendly and mobile-friendly clothing website.",
   "main": "index.js",
   "scripts": {
+    "prebuild": "chmod +x node_modules/.bin/react-scripts",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
